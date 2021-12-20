@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<!-- contact.html is a html web page that have infomation about my contacts. -->
+
+<!-- default html structure tl:dr -->
+<html lang="en" dir="ltr">
+  <!-- heading of that webpage contains nothing in this case except title -->
+  <head>
+    <meta charset="utf-8">
+    <!-- name of the webpage/tab -->
+    <title>Contact me</title>
+  </head>
+  <!-- the body contains links and texts -->
+  <body>
+    <!-- attaches index(home) link to the text 'Back' -->
+    <h2><a href="index.html">Back</a></h2>
+    <!-- <img src="" alt=""> is by typing 'img' and press enter. the picture in this case is from 'images' folder. -->
+    <img src="images/cute-pic-crop.png" alt="my cute profile pic">
+    <h1>Contact me</h1>
+    <!-- mailto is a Uniform Resource Identifier (URI) scheme for email addresses. It is used to produce hyperlinks on websites that allow users to send an email to a specific address directly from an HTML document, -->
+    <p><a href="mailto:pitiphong.kit@gmail.com">eulasimp@gmail.com</a></p>
+    <p><a href="tel:+49.157.0156">69+ 77 777 777</a></p>
+
+    <hr>
+
+    <!-- An HTML form is a section of a document containing normal content, markup, special elements called controls (checkboxes, radio buttons, menus, etc.), and labels on those controls.-->
+    <!-- The attribute 'action' defines what should happen to data when a form is submitted on a web page-->
+    <form class="" action="mailto:pitiphong.kit@gmail.com" method="post">
+      <!-- The HTML label tag is used to define a caption for an element in an HTML form -->
+      <label for="">Your Email</label>
+      <!-- The <input> tag specifies an input field where the user can enter data. can be display in different ways depends on the attributes -->
+      <!-- The attribute 'text' require user to input texts -->
+      <!-- the attribute 'name' used to specify a name for an <input> element. It is used to reference the form-data after submitting the form -->
+      <input type="email" name="yourEmail" value="">
+      <br>
+      <label for=""> Your Message </label>
+      <!-- The <textarea> tag defines a multi-line text input control. The <textarea> element is often used in a form, to collect user inputs like comments or reviews. A text area can hold an unlimited number of characters,-->
+      <br>
+      <textarea name="yourMessage" rows="10" cols="30"></textarea>
+      <!-- break -->
+      <br>
+      <!-- The attribute 'checkbox' requires user to check the box -->
+      <input type="checkbox" name="checkBox" value="true">
+      <label for="">Send news to your email</label>
+      <br>
+      <!-- The attribute 'submit' requires user to press submit -->
+      <input type="submit" name="">
+    </form>
+    <h4> <a href="input.html"> See more input examples </a> </h4>
+  </body>
+</html>
